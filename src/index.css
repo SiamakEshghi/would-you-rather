@@ -1,0 +1,20 @@
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.avatar {
+  height: 50px;
+  border-radius: 25px;
+  margin: 10px;
+}
+.text {
+  text-align: 'center'
+}
