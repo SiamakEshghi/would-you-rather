@@ -46,7 +46,7 @@ class App extends Component {
           <div>
             <Switch>
               <Route path='/dashboard' component={Dashboard} />
-              <Route path='/new' component={NewQuestion} />
+              <Route path='/add' component={NewQuestion} />
               <Route path='/board' component={Board} />
               <Route path='/questions/:id' component={Question} />
               <Route component={NotValid} />
